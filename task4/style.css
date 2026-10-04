@@ -1,0 +1,31 @@
+body {
+    background-color: #f4f6f8;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* Mobile Default */
+.desktop-only-info {
+    display: none;
+}
+
+/* Tablet Breakpoint */
+@media (min-width: 768px) {
+    .section-title {
+        font-size: 1.8rem;
+    }
+}
+
+/* Desktop Breakpoint */
+@media (min-width: 992px) {
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .desktop-only-info {
+        display: block;
+    }
+}
